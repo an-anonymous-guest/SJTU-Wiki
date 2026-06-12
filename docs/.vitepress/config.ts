@@ -20,7 +20,7 @@ export default withThemeContext(
     SiteTitle: 'SJTU Wiki',
     siteDescription: '上海交通大学校园百科',
     siteLogo: '/sjtu-wiki-logo-notext.svg',
-    baseUrl: '/SJTU-Wiki/',
+    baseUrl: '/',
     githubRepoLink,
     hostName: 'https://sjtu-geek.github.io/SJTU-Wiki',
     rootDir: 'docs',
