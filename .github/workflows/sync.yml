@@ -2,6 +2,7 @@ name: Upstream Sync
 
 permissions:
   contents: write
+  actions: write    # <--- 关键：授予调用 workflow_dispatch API 的权限
 
 on:
   schedule:
